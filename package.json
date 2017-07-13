@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "bower install --allow-root"
+    "postinstall": "node ./node_modules/bower/bin/bower install --allow-root"
   },
   "repository": {
     "type": "git",
